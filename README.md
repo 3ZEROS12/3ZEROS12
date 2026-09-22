@@ -1,74 +1,62 @@
-<h1 align="center">Jiaxin Song</h1>
+<h1 align="center">Jiaxin Song (Jason)</h1>
 
 <p align="center">
-  Big Data Management and Application student at Xidian University<br>
-  Building small, reproducible data projects with Python, analytics, and business context.
+  Big Data Management and Application undergraduate at Xidian University<br>
+  Building developer productivity sidecars, agent orchestration tools, and applied data pipelines.
 </p>
 
 <p align="center">
   <a href="mailto:jiaxinsong312@gmail.com">Email</a> ·
-  <a href="https://github.com/3ZEROS12/digit-recognition-fastapi">Featured Project</a>
+  <a href="https://github.com/3ZEROS12/Gabriel">Featured: Gabriel</a> ·
+  <a href="https://github.com/3ZEROS12/toolflow">Featured: ToolFlow</a>
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square" alt="SQL">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
 </p>
 
 ---
 
-## About Me
+## 🛠️ Featured Projects
 
-I am interested in the point where data work becomes useful: cleaning messy inputs, building simple models or dashboards, and turning analysis into a decision someone can understand.
+### 1. [Gabriel 🕊️ (加百列)](https://github.com/3ZEROS12/Gabriel)
+**The Zero-Intrusion Desktop GUI Sidecar & Cognitive Sandbox for CLI AI Agents**
 
-My current direction is data analysis and applied data science, with a growing interest in game data science, player behavior, retention, live operations, and A/B testing.
+* Built to solve terminal distraction during autonomous agent runs: monitors local CLI trajectories in the background without derailing the primary terminal loop.
+* **Architecture**: Passive trajectory parser supporting Antigravity, Claude Code, and Cursor; dual RRF hybrid search (FTS5 + `sqlite-vec` vector memory).
+* **Engineering Rigor**: 39 automated unit/integration tests with `pytest`, Ruff static linting, 100% local-first zero-CDN architecture, and native standalone Windows binary releases.
 
-## Current Snapshot
+### 2. [ToolFlow ⌬](https://github.com/3ZEROS12/toolflow)
+**Adaptive Tool & Ecosystem Meta-Orchestrator for AI Coding Agents**
 
-| Now | Evidence | Next |
-| --- | --- | --- |
-| Big Data Management and Application undergraduate | Python internship project, financial data analysis project, business strategy presentations | Build stronger SQL and A/B testing evidence |
-| Learning applied analytics through projects | Excel/Power BI dashboard work, regression analysis, PyTorch/OpenCV prototype | Create a small game analytics portfolio project |
-| Practicing technical communication | Project leadership, presentation structure, speaking scripts | Write clearer project READMEs and short insight memos |
+* An orchestrator extension that dynamically mounts tools by task stage (exploration, implementation, review), preventing tool collision and context bloat.
+* **Context Governance**: Real-time log dehydration to disk (-95% token overhead on massive stack traces) and stage boundary snapshot/restoration.
+* **Safety & DX**: Engine-level blast radius guard blocking destructive file mutations and built-in instant prompt teleprompter.
 
-## Featured Project
+---
 
-### Digit Recognition FastAPI
+## 🔬 Applied Prototypes & Earlier Work
 
-A digit recognition prototype built with Python, PyTorch, OpenCV, and FastAPI.
+### [Digit Recognition FastAPI](https://github.com/3ZEROS12/digit-recognition-fastapi)
+* **Applied CV & API Pipeline**: End-to-end prototype featuring PyTorch CNN training on MNIST, OpenCV-based image preprocessing (contour analysis, skew correction, red-channel seal filtering), and FastAPI asynchronous upload endpoints.
 
-It includes:
+---
 
-- MNIST CNN model training and inference
-- Image preprocessing with OpenCV
-- Single-digit, multi-digit, and seal-region recognition modes
-- FastAPI upload endpoint for local testing
-- Reproducible project documentation
-
-Repository: [digit-recognition-fastapi](https://github.com/3ZEROS12/digit-recognition-fastapi)
-
-## Skills I Am Building
+## 🧭 Technical Focus & Skills
 
 ```text
-Programming       Python, SQL fundamentals
-Data analysis     Excel, Power BI, data cleaning, regression analysis
-ML/CV             PyTorch, CNN basics, OpenCV preprocessing
-API prototype     FastAPI, Uvicorn
-Communication     Business analysis, presentation structure, project coordination
+Languages & Runtimes    TypeScript / Node.js, Python, SQL, C/C++ basics
+Agent & Tooling Systems  CLI telemetry parsing, context governance, TUI extensions, stage gating
+Data & Machine Learning PyTorch, OpenCV, SQLite / Vector Search (RRF), regression & statistical analysis
+Engineering Hygiene     Automated test suites (pytest), Ruff linting, Git hygiene, local-first architectures
 ```
 
-## Portfolio Roadmap
+## 📬 Contact
 
-- Clean up and document existing technical projects
-- Build a public game analytics project around retention, activity, or event performance
-- Add clear code, charts, and short written insight memos to future repositories
-- Keep projects practical, readable, and reproducible
-
-## Contact
-
-- Email: jiaxinsong312@gmail.com
-- GitHub: [3ZEROS12](https://github.com/3ZEROS12)
+- **Email**: [jiaxinsong312@gmail.com](mailto:jiaxinsong312@gmail.com)
+- **GitHub**: [@3ZEROS12](https://github.com/3ZEROS12)
