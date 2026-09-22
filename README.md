@@ -2,12 +2,11 @@
 
 <p align="center">
   Big Data Management and Application undergraduate at Xidian University<br>
-  Building developer productivity sidecars, agent orchestration tools, and applied data pipelines.
+  Building developer productivity tools, agent runtime orchestration, and applied data pipelines.
 </p>
 
 <p align="center">
   <a href="mailto:jiaxinsong312@gmail.com">Email</a> ·
-  <a href="https://github.com/3ZEROS12/Gabriel">Featured: Gabriel</a> ·
   <a href="https://github.com/3ZEROS12/toolflow">Featured: ToolFlow</a>
 </p>
 
@@ -22,28 +21,35 @@
 
 ---
 
-## 🛠️ Featured Projects
+## 🛠️ Featured Engineering Projects
 
-### 1. [Gabriel 🕊️ (加百列)](https://github.com/3ZEROS12/Gabriel)
-**The Zero-Intrusion Desktop GUI Sidecar & Cognitive Sandbox for CLI AI Agents**
-
-* Built to solve terminal distraction during autonomous agent runs: monitors local CLI trajectories in the background without derailing the primary terminal loop.
-* **Architecture**: Passive trajectory parser supporting Antigravity, Claude Code, and Cursor; dual RRF hybrid search (FTS5 + `sqlite-vec` vector memory).
-* **Engineering Rigor**: 39 automated unit/integration tests with `pytest`, Ruff static linting, 100% local-first zero-CDN architecture, and native standalone Windows binary releases.
-
-### 2. [ToolFlow ⌬](https://github.com/3ZEROS12/toolflow)
+### [ToolFlow ⌬](https://github.com/3ZEROS12/toolflow)
 **Adaptive Tool & Ecosystem Meta-Orchestrator for AI Coding Agents**
 
 * An orchestrator extension that dynamically mounts tools by task stage (exploration, implementation, review), preventing tool collision and context bloat.
-* **Context Governance**: Real-time log dehydration to disk (-95% token overhead on massive stack traces) and stage boundary snapshot/restoration.
+* **Context Governance**: Real-time log dehydration to disk (-95% token overhead on massive terminal traces) and stage boundary snapshot/restoration.
 * **Safety & DX**: Engine-level blast radius guard blocking destructive file mutations and built-in instant prompt teleprompter.
+
+### [Pi TUI Status Beautifier](https://github.com/3ZEROS12/pi-tui-status-beautifier)
+**Brand-Inspired Status Layouts & Themes for Terminal Coding TUIs**
+
+* Terminal UI customization extension offering live interactive theme toggling (`/beautify`) across design systems (Cupertino, OpenAI, Claude, Fluent, Material).
+* Engineered with full in-memory caching to eliminate terminal paint-loop I/O bottlenecks.
 
 ---
 
-## 🔬 Applied Prototypes & Earlier Work
+## 📦 Systems Research & Prototypes
+
+### [Gabriel 🕊️ (加百列)](https://github.com/3ZEROS12/Gabriel) `[Archived Prototype]`
+**The Zero-Intrusion Desktop GUI Sidecar & Cognitive Sandbox for CLI AI Agents**
+
+* Built as a comprehensive desktop GUI experiment to monitor autonomous agent trajectories in the background. Later archived as the underlying cognitive need converged into lightweight in-session native primitives (such as the `/btw` paradigm).
+* **Architecture & Rigor**: Validated passive CLI log parsing (Antigravity, Claude Code, Cursor), dual-track RRF hybrid search (FTS5 + `sqlite-vec`), and 39 automated unit/integration tests (`pytest`) with native Windows packaging.
 
 ### [Digit Recognition FastAPI](https://github.com/3ZEROS12/digit-recognition-fastapi)
-* **Applied CV & API Pipeline**: End-to-end prototype featuring PyTorch CNN training on MNIST, OpenCV-based image preprocessing (contour analysis, skew correction, red-channel seal filtering), and FastAPI asynchronous upload endpoints.
+**Applied Computer Vision & Inference API Pipeline**
+
+* End-to-end prototype featuring PyTorch CNN training on MNIST, OpenCV-based image preprocessing (contour analysis, skew correction, red-channel seal filtering), and FastAPI asynchronous upload endpoints.
 
 ---
 
