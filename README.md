@@ -1,20 +1,46 @@
 # Jason Song (@3ZEROS12)
 
-I build low-overhead runtime extensions, terminal UI layout engines, and offline data/OCR pipelines. Currently studying Big Data Management and Application at Xidian University (`GPA 3.8/4.0`, Xi'an).
+*Reserved in person, restless in thought. Building quiet tools for the terminal and riding out into the wind.*
 
-Most of my open-source work starts from physical friction encountered during daily engineering:
-- **The 5-to-15-second generation wait**: After hitting `Enter` in a terminal coding agent, the pause is too short to switch to a browser and just long enough for focus to drift.
-- **Terminal geometry and context bloat**: East Asian full-width characters (`2` cells vs. `1` ASCII cell) tear closed terminal borders on narrow split panes, while `500`-line test stack traces flood the context window and trigger premature compaction.
-- **Session amnesia**: Pressing `Ctrl+C` exits the process and wipes working memory, while tracking tasks in `TODO.md` pollutes git history and burns system prompt tokens on every turn.
-- **Air-gapped field operations**: At bank branch terminals with zero internet access, staff spend `15` minutes manually transcribing `60`-row skewed paper renewal receipts into Excel.
-
-[**npm (`~jason-zeros`)**](https://www.npmjs.com/~jason-zeros) · [**GitHub (`@3ZEROS12`)**](https://github.com/3ZEROS12) · [**Email (`jiaxinsong312@gmail.com`)**](mailto:jiaxinsong312@gmail.com)
+**English** | [简体中文](./README_zh.md) · [**npm (`~jason-zeros`)**](https://www.npmjs.com/~jason-zeros) · [**GitHub (`@3ZEROS12`)**](https://github.com/3ZEROS12) · [**Email**](mailto:jiaxinsong312@gmail.com)
 
 ---
 
-## Pi Terminal Suite
+## Notes on Life, Movement & Learning
 
-Four composable packages published on npm for [Pi Coding Agent](https://github.com/earendil-works/pi-coding-agent). Each package mounts to a separate spatial or runtime slot (`aboveEditor`, runtime tool hooks, `belowEditor`, and `status-only` footer) so all four run together with zero widget overlap:
+In person I am reserved, almost quiet, yet inside my own head my thoughts run wild and unrestrained. I like thinking about all sorts of things: technology, the future, where everything is heading. I have been lost before. I believe in the existence of the Lord, and I feel it was only through His guidance that I made it through certain dark stretches of the mind. Yet I am not religious. It is a contradiction, I know, but a deeply fulfilling one. So, if You truly exist, please let me keep living like this, contradictory and full. I will carry out Your *love*.
+
+I love my life. I love playing badminton. To me it is a remarkable sport because it demands intellect and imagination just as much as coordination and a strong body. Running is nothing like that. After spending an entire summer sitting at an office desk working, eating happily, and putting on more than twenty pounds, I finally resolved to start running, and I suppose I have made some modest progress. Then there is cycling. Riding around campus is dull: the same scenery, the same schedule, and a crowd of all kinds of people kept outside my world by my own temperament, stirring very little in me. Riding out in the wild is another thing altogether. It is free, almost reckless. The world is no longer shoving me along; I am the one carrying the wind, carrying the fragrance of everything connected to me, moving endlessly forward. Set the two side by side, and what matters most is that out on the open road I can finally let my guard down and just look around at the world, without bracing for a traffic accident to drop out of nowhere.
+
+I enjoy learning. Learning, I think, might be a sport too. I hate separating it from the rest of my life, though space here is short and most people do not seem to see it that way. Either way you put in time and sweat, just balanced with different weights, and what you get back is different too: perspective, character, the art of dealing with people (why haven't I gotten the hang of this yet?...), and understanding (a cliché, I know, but an essential one). All of these things gather into a quiet happiness. As long as there is enough time, there is very little pain in it; when pain does show up, it is usually a chain reaction set off by the brute force of a ticking clock. I do not need to say much about that kind of experience. I have been through brutal exams, yet I refuse to take them as proof against my belief that learning is a joy, and I will not accept that argument from anyone else either. To me, that was not learning at all. If anything, that kind of torment is closer to what most people think of as grueling physical training. A flower that blooms only after tearing apart the spirit and the flesh is what I call suffering, not joy. It is like a photograph of a child holding a doll among shattered walls after a war. Some people praise the beauty of that image, but I cannot feel it. That is a catastrophe. It reflects love, perhaps, by contrast, but it does not carry love.
+
+Writing code and building small tools feels, to me, like a natural extension of the same kind of learning. I have never liked treating programming as some grim ascetic ordeal, nor do I care to prove a project's worth by how many sleepless nights it cost. Most of the time I build things simply because I bumped into a small, concrete annoyance in daily life: staring at the terminal for ten idle seconds while a model streams a reply, watching full-width Chinese characters crack a status bar border in a narrow split pane, or sitting at a bank branch during my summer internship watching staff type sixty rows of skewed paper receipts into Excel by hand (when a machine really ought to spare people that kind of mind-numbing grind). Smoothing out those rough edges is rewarding enough on its own.
+
+What sits below on this page is simply a collection of things I have pieced together out of curiosity over the past few years. They do not carry any grand ambition; they are just traces left behind by an honest life. If you happen to pass through and one or two of these tools save you a few minutes of frustration, letting you close your laptop a little earlier to go play a game of badminton, or ride out into the wind where there are no traffic lights and just look around, nothing could make me happier.
+
+<details>
+<summary><b>Read original Chinese essay (展开中文原稿)</b></summary>
+<br>
+
+我现实中内敛，但是思想上很活泼放纵，喜欢想很多东西，技术，未来。我迷茫过，我相信主的存在，感觉有他的指引我才度过了某些心理上的难关，但我不信教，很矛盾，但很充实。所以，如果您真的存在的话，请让我一直这样矛盾而充实地活下去吧，我会贯彻您的 爱 的。
+
+我爱我的生活。我喜欢打羽毛球，我认为这是一个很优秀的运动，既需要脑力还有想象力，又需要协调性和健壮的身体。跑步就不这样了，在上一整个暑假坐在办公桌前工作，美美吃的时候胖了超过20斤，然后下定决心开始跑步，算是小有成就。然后是骑自行车，校内骑行很枯燥，一样的风景，一样的日程，形形色色但是被我的性格所阻挡在我世界之外的个体也不会让我有多少激荡。野骑就不一样了，自由，放荡，不是世界裹挟着我，我带着风，带着连接着我的事物的芬芳无限地向前。两者对比下来后，最重要的是，终于可以放下心，随意看看四周了，不用担心交通事故的骤降。
+
+我享受学习。学习，我认为可能也是一项运动吧，我不愿意把它跟我的生活相分离，但篇幅所限，而且大家似乎不这样认同。同样付出着时间和汗水，只是有着不同权重平衡下的投入，但收获也不一样啊。眼界，素质，待人接物的能力（为什么我还没有学好呢？...），认知（老生常谈，但是绝对的重要）。种种种种，汇聚而来的幸福感，同时如果时间充足还是没有太过的痛苦，只是时间带来的不可抗力导致的连锁反应。至于这种经历，我不必多说，经历过严苛的考试，但这不是我想要反驳我认为学习是一种享受的理由，也不接受别人如此反驳。我不认为那是一种学习，姑且对我而言，那种痛苦还是更像大家认为的运动一点吧。承受过撕裂精神，还有肉体的苦痛，最终绽放的花，我认为是苦难，而非享受。就如战争过后，断壁残垣下的孩童与玩偶，有人推崇，但我感受不到那种美。那是灾难，投射出爱，但不承载爱。
+
+写代码，做一些小工具，对我来说大概也是这种学习的延续。我不太习惯把写程序当成某种苦行，也不想靠渲染熬夜和痛苦来证明它的分量。很多时候只是在日常里撞上了一点具体的别扭，比如在终端里敲完回车等模型回复的那十几秒发呆，比如分屏变窄时中文字符把边框挤碎的杂乱，又或者在银行实习时看着柜员对着几十行歪斜的纸质回单一行行手敲（要是能让机器替人把这些枯燥受罪的事干完就好了）。把这些小磕绊顺手抚平的过程，本身就足够让人开心了。
+
+这里摆着的，就是我这几年顺着好奇心一点点攒下来的物件。它们承载不了什么宏大的野心，只是一段段诚实生活留下的痕迹。如果你路过这里，刚好有那么一两个工具能替你省下几分钟的焦躁，让你能早点合上电脑，去打一场球，或者骑车去吹吹没有红绿灯的风，随便看看四周，那就再好不过了。
+
+</details>
+
+---
+
+## Things I Build in the Terminal
+
+### Pi Terminal Suite
+
+Four small, composable packages on npm for [Pi Coding Agent](https://github.com/earendil-works/pi-coding-agent). Each package mounts to its own spatial slot (`aboveEditor`, runtime tool hooks, `belowEditor`, and `status-only` footer) so all four can live together in the same terminal without stepping on each other:
 
 ```text
   ┌─ aboveEditor HUD (pi-lingual · <= 9 lines · UAX #11 open left-rail tree) ──────────┐
@@ -29,12 +55,12 @@ Four composable packages published on npm for [Pi Coding Agent](https://github.c
   └─► status-only Footer (pi-tui-status-beautifier): plan ❯ ◆ 3  toolflow ❯ ⌬ 2/5  (+2 idle)
 ```
 
-| Package | Registry & Monthly Downloads | Slot & Mechanism | Verification |
+| Package | Registry & Downloads | What It Solves | Tests |
 | :--- | :--- | :--- | :--- |
-| **[`pi-lingual`](https://github.com/3ZEROS12/pi-lingual)** | [![npm](https://img.shields.io/npm/v/pi-lingual?color=blue&label=npm)](https://www.npmjs.com/package/pi-lingual) [![downloads](https://img.shields.io/npm/dm/pi-lingual?color=22c55e&label=downloads)](https://www.npmjs.com/package/pi-lingual) | **`aboveEditor` UAX #11 Tree HUD & Prompt Rewriter**: Renders a dual-register (`[Spoken]` standup phrasing + `[Written]` RFC prose) overlay (`<= 9` lines, Kinsoku line-head punctuation rules) or rewrites native prompts into technical English while preserving code blocks verbatim. Zero tokens injected into chat history; `50`-entry in-memory LRU cache. | `93/93` tests pass |
-| **[`toolflow`](https://github.com/3ZEROS12/toolflow)** | [![npm](https://img.shields.io/npm/v/toolflow?color=blue&label=npm)](https://www.npmjs.com/package/toolflow) [![downloads](https://img.shields.io/npm/dm/toolflow?color=22c55e&label=downloads)](https://www.npmjs.com/package/toolflow) | **Runtime Tool Sandboxing & `-95%` Log Dehydration**: Keeps core tools persistent while stage-gating heavy MCP schemas across research, implementation, and read-only review phases. Redirects command outputs exceeding `40` lines to disk, returning exit codes and root failure summaries, and blocks destructive writes to `.env*` and `.git*`. | `26/26` suites pass |
-| **[`pi-tui-status-beautifier`](https://github.com/3ZEROS12/pi-tui-status-beautifier)** | [![npm](https://img.shields.io/npm/v/pi-tui-status-beautifier?color=blue&label=npm)](https://www.npmjs.com/package/pi-tui-status-beautifier) [![downloads](https://img.shields.io/npm/dm/pi-tui-status-beautifier?color=22c55e&label=downloads)](https://www.npmjs.com/package/pi-tui-status-beautifier) | **`status-only` Badge Folding & 0-I/O Footer Engine**: Normalizes extension status strings across `6` visual presets while leaving Pi's native telemetry lines untouched. Folds idle badges into `(+N idle)` on narrow (`<80`-col) split panes and performs `0` synchronous disk reads during TUI redraw loops. | `18/18` tests pass |
-| **[`pi-anchor`](https://github.com/3ZEROS12/anchor)** | [![npm](https://img.shields.io/npm/v/pi-anchor?color=blue&label=npm)](https://www.npmjs.com/package/pi-anchor) [![downloads](https://img.shields.io/npm/dm/pi-anchor?color=22c55e&label=downloads)](https://www.npmjs.com/package/pi-anchor) | **`0ms` `belowEditor` Sticky Strip & Session Jump**: Intercepts `pin:` notes in `0ms` with `0` LLM calls. Renders `[■■□□]` step bars, bookmarks `.jsonl` session transcripts (`↪`) for one-click context switches, stores state globally in `~/.anchor/` with `fs.openSync('wx')` locks (`0` repo files, `0` Turn-2+ prompt tokens), and auto-archives on `git commit`. | `25/25` assertions pass |
+| **[`pi-lingual`](https://github.com/3ZEROS12/pi-lingual)** | [![npm](https://img.shields.io/npm/v/pi-lingual?color=blue&label=npm)](https://www.npmjs.com/package/pi-lingual) [![downloads](https://img.shields.io/npm/dm/pi-lingual?color=22c55e&label=downloads)](https://www.npmjs.com/package/pi-lingual) | **`aboveEditor` Bilingual Sidecar & Prompt Rewriter**: Turns the 10-second LLM wait into an ambient language window (`[Spoken]` standup phrasing + `[Written]` RFC prose) within a `<= 9`-line UAX #11 open-tree layout, or rewrites native prompts into technical English while keeping code blocks untouched. Zero tokens added to chat history. | `93/93` pass |
+| **[`toolflow`](https://github.com/3ZEROS12/toolflow)** | [![npm](https://img.shields.io/npm/v/toolflow?color=blue&label=npm)](https://www.npmjs.com/package/toolflow) [![downloads](https://img.shields.io/npm/dm/toolflow?color=22c55e&label=downloads)](https://www.npmjs.com/package/toolflow) | **Stage-Gated Tools & `-95%` Log Dehydration**: Keeps core tools ready while gating heavy MCP schemas across research, implementation, and review phases. Spills command outputs over `40` lines to disk, returning exit codes and root error summaries so long test logs don't drown the context window. | `26/26` pass |
+| **[`pi-tui-status-beautifier`](https://github.com/3ZEROS12/pi-tui-status-beautifier)** | [![npm](https://img.shields.io/npm/v/pi-tui-status-beautifier?color=blue&label=npm)](https://www.npmjs.com/package/pi-tui-status-beautifier) [![downloads](https://img.shields.io/npm/dm/pi-tui-status-beautifier?color=22c55e&label=downloads)](https://www.npmjs.com/package/pi-tui-status-beautifier) | **`status-only` Footer Engine**: Cleans up extension status strings across `6` visual presets without touching Pi's native telemetry lines. Folds idle badges into `(+N idle)` on narrow (`<80`-col) split panes with `0` synchronous disk reads during TUI redraws. | `18/18` pass |
+| **[`pi-anchor`](https://github.com/3ZEROS12/anchor)** | [![npm](https://img.shields.io/npm/v/pi-anchor?color=blue&label=npm)](https://www.npmjs.com/package/pi-anchor) [![downloads](https://img.shields.io/npm/dm/pi-anchor?color=22c55e&label=downloads)](https://www.npmjs.com/package/pi-anchor) | **`0ms` `belowEditor` Sticky Strip & Session Jump**: Catches `pin:` notes in `0ms` with `0` LLM calls. Renders `[■■□□]` step bars, bookmarks `.jsonl` session transcripts (`↪`) so you can jump back where you left off, keeps state in `~/.anchor/` out of your git tree, and auto-archives on `git commit`. | `25/25` pass |
 
 ```bash
 pi install npm:pi-lingual
@@ -45,55 +71,19 @@ pi install npm:pi-anchor
 
 ---
 
-## Applied Systems, Vision & Data Engineering
+### Other Projects Built Along the Way
 
-### [`lingual-desktop`](https://github.com/3ZEROS12/lingual-desktop) · Native Windows Ambient Writing Companion
-`TypeScript` · `Electron` · `C# UI Automation` · `MinGW C` · `24/24 Tests Pass`
+- **[`lingual-desktop`](https://github.com/3ZEROS12/lingual-desktop)** (`TypeScript` · `Electron` · `C# UI Automation` · `MinGW C` · `24/24 Tests Pass`)
+  Brings the dual-register writing workflow out of the terminal and into everyday Windows text inputs (X, Slack, Discord, Notion, Chrome). Reads focused controls directly in UTF-8 via C# `UIA ValuePattern` (`<2ms`) with an atomic clipboard rollback guard (`<160ms`), `Esc` three-second undo, and automatic passthrough when a terminal emulator is focused.
 
-- Extends the dual-register translation workflow from the terminal to any Windows text input (X, Slack, Discord, Notion, Chrome) alongside existing IMEs.
-- Reads focused input controls directly in UTF-8 via native C# `UIA ValuePattern` (`<2ms`) with an atomic clipboard transaction guard (`<160ms`) and `Esc` three-second undo.
-- Includes a process guard that detects terminal emulators (`WindowsTerminal`, `WezTerm`, `PowerShell`, `cmd`) and passes `Enter` keystrokes through with zero interception.
+- **[`bank-asset-table-ocr-extractor`](https://github.com/3ZEROS12/bank-asset-table-ocr-extractor)** (`Python` · `RapidOCR / ONNX` · `OpenCV` · `PyMuPDF` · `openpyxl`)
+  Built during a summer internship at a bank branch where staff had to transcribe 60-row skewed paper renewal receipts into Excel on air-gapped machines (`0%` internet access). Uses affine deskewing, Telea grid-line removal, `15`-digit customer ID row anchoring, and `3`-offset spatial voting to cut a `15`-minute manual chore down to `8-18` seconds per sheet (`96.9%-99.9%` cell accuracy).
 
-### [`bank-asset-table-ocr-extractor`](https://github.com/3ZEROS12/bank-asset-table-ocr-extractor) · Air-Gapped Financial Table OCR & Risk Verification Workbench
-`Python` · `RapidOCR (ONNX Runtime)` · `OpenCV` · `PyMuPDF` · `openpyxl`
+- **[`digit-recognition-fastapi`](https://github.com/3ZEROS12/digit-recognition-fastapi)** (`Python` · `PyTorch` · `OpenCV` · `FastAPI`)
+  Document vision preprocessing pipeline (contour extraction, deskewing, red-channel stamp filtering, character segmentation) paired with a PyTorch CNN over async FastAPI endpoints.
 
-- Built during my summer internship at Chang'an Bank (Client Department) to digitize `60`-row paper asset renewal receipts on offline branch terminals (`0%` external network access).
-- Combines affine deskewing, morphological grid-line removal (Telea inpainting), `15`-digit customer ID row-anchor alignment, ink-density blank-cell detection (`<1.5%` black pixel ratio), `2x` bicubic super-resolution with CLAHE contrast stretching, and `3`-offset spatial voting.
-- Cut single-sheet processing time from `15` minutes to `8-18` seconds across `500+` credit archives, reaching `100%` row recall and `96.9%-99.9%` cell accuracy with automatic Excel anomaly highlighting.
+- **[`Gabriel`](https://github.com/3ZEROS12/Gabriel)** (`Python` · `SQLite FTS5` · `sqlite-vec` · `39/39 pytest Pass` · *Archived Prototype*)
+  An early `1/4`-screen desktop sidecar for watching CLI coding agent transcripts (`Claude Code`, `Cursor`, `Antigravity`) with local hybrid search (BM25 + vector Reciprocal Rank Fusion). Archived after its best parts grew into `pi-anchor` and `toolflow`.
 
-### [`digit-recognition-fastapi`](https://github.com/3ZEROS12/digit-recognition-fastapi) · Document Vision Preprocessing & Async Inference API
-`Python` · `PyTorch` · `OpenCV` · `FastAPI`
-
-- Built during a technical internship at Xi'an Jianhe Information Technology alongside standalone Python executables for automated global IP data extraction and cleaning.
-- Pairs a PyTorch CNN with OpenCV preprocessing (contour extraction, deskewing, red-channel stamp filtering, character segmentation) to serve structured JSON predictions over async FastAPI endpoints.
-
-### [`Gabriel`](https://github.com/3ZEROS12/Gabriel) · Desktop GUI Sidecar & Local Hybrid Search Sandbox `[Archived Prototype]`
-`Python` · `SQLite FTS5` · `sqlite-vec` · `39/39 pytest Pass`
-
-- Early desktop sidecar built to monitor autonomous CLI coding agent transcripts (`Claude Code`, `Cursor`, `Antigravity`) in a `1/4`-screen window without interrupting long refactoring loops.
-- Implemented dual-track Reciprocal Rank Fusion (`SQLite FTS5` BM25 + `sqlite-vec` embeddings) and one-click error snapshot pinning. Archived after distilling its core workflows directly into in-terminal primitives (`pi-anchor` and `toolflow`).
-
-### [`rea`](https://github.com/3ZEROS12/rea) · Agentic Reverse Engineering & Binary Inspection Workflows
-`TypeScript` · `Python` · `Agent Tooling`
-
-- Explores agent-driven reverse engineering pipelines from application-level behavior and network protocols down to native binary disassembly and control-flow reconstruction.
-
----
-
-## Engineering Notes & Design Invariants
-
-Across my projects, I enforce a consistent set of engineering rules:
-
-1. **Zero-Trace Revert**: Disabling an extension (`off` mode) physically deletes its keys from `settings.json` (`delete config.target`), leaving zero orphaned configuration keys.
-2. **Platform Telemetry Authority**: Status bar and TUI hooks format extension badges via surgical micro-hooks without overwriting host token counters, git branch indicators, or cache hit telemetry.
-3. **Unicode UAX #11 Width Determinism**: Dynamic text and multilingual strings never sit inside closed right-hand borders (`│ ... │`). Widths are computed cell-by-cell (`2` columns for CJK/emoji, `1` column for ASCII, `0` for stripped ANSI sequences) with cascading degradation to stay within host line limits.
-4. **1:1 Physical Verification**: Every package ships with zero runtime dependencies or minimal locked primitives, dual ESM/CJS builds (`<90ms` cold start), OIDC trusted publishing, and test badges anchored `1:1` to physical test runner counts.
-
----
-
-## Background & Technical Stack
-
-- **Education**: B.Mgt. in Big Data Management and Application, Xidian University (`2024 - 2028 Expected`, `GPA 3.8/4.0`). Coursework includes Data Structures (`98`), Business Statistics, Analytics & Modeling (`98`), Accounting Analytics (`98`), Artificial Intelligence (`97`), C Programming (`93`), and Database Systems (`90`).
-- **Languages & Runtimes**: TypeScript / Node.js, Python, C, SQL, C# / MinGW C (Win32 & UIA bridges).
-- **Agent & Terminal Systems**: Pi Coding Agent SDK, TUI box-model layout solvers (Unicode UAX #11, Kinsoku Shori), AST-based tool sandboxing, context log dehydration.
-- **Data, Vision & Retrieval**: PyTorch, OpenCV, RapidOCR (ONNX Runtime), SQLite FTS5, `sqlite-vec` (Reciprocal Rank Fusion), FastAPI, pandas, openpyxl, Power BI.
+- **[`rea`](https://github.com/3ZEROS12/rea)** (`TypeScript` · `Python` · `Agent Tooling`)
+  Experiments in agent-assisted reverse engineering, from network protocol inspection down to binary disassembly and control-flow reconstruction.
