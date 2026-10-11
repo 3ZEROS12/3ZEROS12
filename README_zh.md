@@ -1,12 +1,12 @@
 # Jason Song (@3ZEROS12)
 
-*现实中内敛，思想上放纵。在终端里造一点安静的小物件，顺便骑车去吹吹没有红绿灯的风。*
+*现实中内敛，思想上活泼放纵。喜欢想很多东西，关于技术，关于未来。*
 
 [English](./README.md) | **简体中文** · [**npm (`~jason-zeros`)**](https://www.npmjs.com/~jason-zeros) · [**GitHub (`@3ZEROS12`)**](https://github.com/3ZEROS12) · [**Email**](mailto:jiaxinsong312@gmail.com)
 
 ---
 
-## 随笔：生活、野骑与学习
+## 随笔：生活、学习与未来
 
 我现实中内敛，但是思想上很活泼放纵，喜欢想很多东西，技术，未来。我迷茫过，但走过那些心理上的难关之后，觉得能够像现在这样矛盾而充实地活下去，本身就很好。
 
@@ -14,9 +14,7 @@
 
 我享受学习。学习，我认为可能也是一项运动吧，我不愿意把它跟我的生活相分离，但篇幅所限，而且大家似乎不这样认同。同样付出着时间和汗水，只是有着不同权重平衡下的投入，但收获也不一样啊。眼界，素质，待人接物的能力（为什么我还没有学好呢？...），认知（老生常谈，但是绝对的重要）。种种种种，汇聚而来的幸福感，同时如果时间充足还是没有太过的痛苦，只是时间带来的不可抗力导致的连锁反应。至于这种经历，我不必多说，经历过严苛的考试，但这不是我想要反驳我认为学习是一种享受的理由，也不接受别人如此反驳。我不认为那是一种学习，姑且对我而言，那种痛苦还是更像大家认为的运动一点吧。承受过撕裂精神，还有肉体的苦痛，最终绽放的花，我认为是苦难，而非享受。就如战争过后，断壁残垣下的孩童与玩偶，有人推崇，但我感受不到那种美。那是灾难，投射出爱，但不承载爱。
 
-我也喜欢写代码。造一点小工具，对我来说大概也是这种学习的延续：好奇，顺手，跟打一场好球没什么两样。我不喜欢把写程序当成苦行，更不想靠熬夜和掉头发来证明它有什么分量（虽然调不通 bug 的时候还是会对着屏幕叹气……）。很多时候，只是在日常里撞上了一点具体的别扭：在终端里敲完回车、干等着模型吐字的那十秒钟发呆；分屏变窄时，两列宽的中文字符把边框挤碎的凌乱；又或者暑假在银行实习，坐在工位上看柜员对着六十行歪斜的纸质回单一行行往表格里手敲。那种机械的消耗，看着就让人替他们累得慌。能写几行代码把这些磕绊顺手抚平，把人从没必要的苦差里解放出来，本身就足够让人开心了。
-
-这里摆着的，就是我顺着性子攒下来的小物件。它们不承载什么宏大的野心（硬要吹成改变世界，我自己先觉得尴尬），只是这几年诚实生活留下的脚印。如果你刚好路过，拿走一两个顺手的工具，能替你省下几分钟对着终端干等的焦躁，让你早点合上电脑，去打一场羽毛球，或者骑车去野路上吹吹风，放下心，随便看看四周，那就再好不过了。
+我平时喜欢琢磨技术和未来，动手写一点代码，大概也是这种思考的延伸。我始终觉得，好的技术应该像真正的学习一样，去拓宽人的眼界与自主性，别反过来变成另一种更密集的仓促把人裹挟住。有时候看着现在越来越快的工具迭代，我也会犹豫，人到底是在借着技术走得更远，还是只是在更急的节奏里被动地疲于奔命。这个问题我还没有完全想透，但至少在自己动手造东西的时候，我不想去凑那种热闹。页面下方留着的几个仓库，只是过去遇到问题时顺手踩出的旧脚印。做完的东西就已经留在身后了，真正让我着迷的，永远是脑子里还在成形的下一个问题，以及技术究竟能把人带向怎样的未来。
 
 <details>
 <summary><b>Read in English (展开英文版)</b></summary>
@@ -28,62 +26,24 @@ I love my life. I love playing badminton. To me it is a remarkable sport because
 
 I enjoy learning. Learning, I think, might be a sport too. I hate separating it from the rest of my life, though space here is short and most people do not seem to see it that way. Either way you put in time and sweat, just balanced with different weights, and what you get back is different too: perspective, character, the art of dealing with people (why haven't I gotten the hang of this yet?...), and understanding (a cliché, I know, but an essential one). All of these things gather into a quiet happiness. As long as there is enough time, there is very little pain in it; when pain does show up, it is usually a chain reaction set off by the brute force of a ticking clock. I do not need to say much about that kind of experience. I have been through brutal exams, yet I refuse to take them as proof against my belief that learning is a joy, and I will not accept that argument from anyone else either. To me, that was not learning at all. If anything, that kind of torment is closer to what most people think of as grueling physical training. A flower that blooms only after tearing apart the spirit and the flesh is what I call suffering, not joy. It is like a photograph of a child holding a doll among shattered walls after a war. Some people praise the beauty of that image, but I cannot feel it. That is a catastrophe. It reflects love, perhaps, by contrast, but it does not carry love.
 
-I like writing code too. Building small tools feels, to me, like the same kind of sport: curiosity, momentum, and the quiet joy of making something fit. I refuse to treat programming as a grim ascetic ordeal, and I have no interest in measuring a project's worth by how many sleepless nights it cost (though I still sigh plenty at my monitor when a bug refuses to budge...). Mostly, I build things because I bump into small, physical annoyances in daily life: staring blankly at the terminal for ten idle seconds waiting for a model to stream back, watching two-column Chinese characters crack a status bar border when I narrow a split pane, or sitting at an office desk during my summer bank internship watching tellers hand-type sixty rows of skewed paper receipts into a spreadsheet. Watching people grind through that kind of mechanical misery just hurts. Writing a bit of code to smooth out those rough edges, and hand people their time back, is reward enough.
-
-What sits on this page is simply what I have pieced together along the way. None of it carries any grand ambition (calling them "world-changing" would make me cringe before anyone else), just honest traces of things I wanted to exist. If you happen to pass by and one or two of these tools save you a few minutes of staring at a cursor, letting you close your laptop early to go play a game of badminton, or ride out onto an open road, let your guard down, and just look around in the wind, that is more than enough for me.
+Thinking about technology and the future, and writing code when an idea takes hold, is really an extension of the same instinct. Good technology, much like real learning, ought to widen human perspective and autonomy rather than wrap people in a faster kind of haste. Watching how quickly tools and models churn today, I sometimes wonder whether we are genuinely reaching further through technology or just being shoved along at a steeper pace. I still do not have a clean answer to that, though whenever I build something myself, I refuse to feed into that restlessness. The repositories sitting below on this page are simply old footprints from problems I ran into and left behind. Once a piece of work is finished, it belongs to the past; what keeps me curious is always the next question still taking shape in my head, and where technology might actually take us next.
 
 </details>
 
 ---
 
-## 我在终端里造的物件
+## 顺手留下的几个旧脚印
 
-### Pi 终端套件（Pi Terminal Suite）
+过去遇到具体问题时顺手做出来的几个小物件与实验：
 
-发布在 npm 上的四个小型插件，专为 [Pi Coding Agent](https://github.com/earendil-works/pi-coding-agent) 设计。每个插件各自停靠在独立的终端空间槽位（`aboveEditor`、运行时工具钩子、`belowEditor` 与 `status-only` 底栏），四个一起开也不会打架：
+**终端与智能体工具（发布在 [npm](https://www.npmjs.com/~jason-zeros) 上的 [Pi](https://github.com/earendil-works/pi-coding-agent) 插件）**
+- **[`pi-lingual`](https://github.com/3ZEROS12/pi-lingual)** ([npm](https://www.npmjs.com/package/pi-lingual))：终端输入区上方的双语伴学小视窗与英文提示词转写。
+- **[`toolflow`](https://github.com/3ZEROS12/toolflow)** ([npm](https://www.npmjs.com/package/toolflow))：按阶段挂载工具，并将过长的终端输出转存磁盘以保持上下文干净。
+- **[`pi-anchor`](https://github.com/3ZEROS12/anchor)** ([npm](https://www.npmjs.com/package/pi-anchor))：输入区下方的 `pin:` 轻量任务便签条与历史会话定点回跳。
+- **[`pi-tui-status-beautifier`](https://github.com/3ZEROS12/pi-tui-status-beautifier)** ([npm](https://www.npmjs.com/package/pi-tui-status-beautifier))：终端窄分屏下的底栏状态折叠与排版。
 
-```text
-  ┌─ aboveEditor HUD (pi-lingual · <= 9 lines · UAX #11 open left-rail tree) ──────────┐
-  │  · [Original] El PR es demasiado grande, sugiero dividirlo en dos cambios          │
-  │  ┌ [Spoken]   This PR is huge; we'd be better off splitting it into two changes.   │
-  │  ├ [Written]  The PR scope is overly broad; decomposing into two commits is advised│
-  │  └ [Vocab]    overly broad · be better off · split into · atomic commits           │
-╭─┴─ Pi Editor & Runtime Hooks (toolflow · stage-gated tools & -95% log dehydration) ──╮
-│ ❯ pin: Refactor auth flow: 1. Extract interface 2. HttpOnly cookie 3. Unit tests     │
-╰─┬─ belowEditor Sticky Strip (pi-anchor · 0ms pin: intercept & session jump) ─────────╯
-  ├─► ⌖ #1 [■■□□ 2/4] Refactor auth flow ▸ Unit tests (app · auth.ts ↪)
-  └─► status-only Footer (pi-tui-status-beautifier): plan ❯ ◆ 3  toolflow ❯ ⌬ 2/5  (+2 idle)
-```
-
-| 插件 | 版本与下载量 | 解决的小别扭 | 测试验证 |
-| :--- | :--- | :--- | :--- |
-| **[`pi-lingual`](https://github.com/3ZEROS12/pi-lingual)** | [![npm](https://img.shields.io/npm/v/pi-lingual?color=blue&label=npm)](https://www.npmjs.com/package/pi-lingual) [![downloads](https://img.shields.io/npm/dm/pi-lingual?color=22c55e&label=downloads)](https://www.npmjs.com/package/pi-lingual) | **`aboveEditor` 双语伴学视窗与提示词转写**：把敲完回车等待模型输出的十几秒发呆时间，变成一个 `<= 9` 行的开放式双语小视窗（同时对照日常站会口语 `[Spoken]` 与技术文档书面语 `[Written]`），或将中文输入直接转写为地道技术英文且保留代码块原样，不向对话历史塞入多余 Token。 | `93/93` 通过 |
-| **[`toolflow`](https://github.com/3ZEROS12/toolflow)** | [![npm](https://img.shields.io/npm/v/toolflow?color=blue&label=npm)](https://www.npmjs.com/package/toolflow) [![downloads](https://img.shields.io/npm/dm/toolflow?color=22c55e&label=downloads)](https://www.npmjs.com/package/toolflow) | **分阶段工具按需挂载与 `-95%` 日志脱水**：按调研、实现、只读审查阶段按需挂载大型 MCP 工具；当命令输出超过 `40` 行时自动将完整日志转存磁盘，仅向模型返回退出码与核心报错摘要，避免长串测试堆栈冲垮上下文窗口。 | `26/26` 通过 |
-| **[`pi-tui-status-beautifier`](https://github.com/3ZEROS12/pi-tui-status-beautifier)** | [![npm](https://img.shields.io/npm/v/pi-tui-status-beautifier?color=blue&label=npm)](https://www.npmjs.com/package/pi-tui-status-beautifier) [![downloads](https://img.shields.io/npm/dm/pi-tui-status-beautifier?color=22c55e&label=downloads)](https://www.npmjs.com/package/pi-tui-status-beautifier) | **`status-only` 底栏排版引擎**：在不触碰宿主原生 Token 与分支信息的前提下，将杂乱的扩展状态整理为 `6` 套紧凑徽标；分屏窄于 `80` 列时自动将闲置徽标折叠为 `(+N idle)`，重绘循环中零同步磁盘读取。 | `18/18` 通过 |
-| **[`pi-anchor`](https://github.com/3ZEROS12/anchor)** | [![npm](https://img.shields.io/npm/v/pi-anchor?color=blue&label=npm)](https://www.npmjs.com/package/pi-anchor) [![downloads](https://img.shields.io/npm/dm/pi-anchor?color=22c55e&label=downloads)](https://www.npmjs.com/package/pi-anchor) | **`0ms` `belowEditor` 任务便签条与会话跳转**：`0ms` 拦截 `pin:` 笔记，无需调用大模型；渲染 `[■■□□]` 进度条并绑定 `.jsonl` 会话快照（`↪`）实现一键跳回现场，状态保存在全局 `~/.anchor/` 而不污染代码仓库，`git commit` 时自动归档。 | `25/25` 通过 |
-
-```bash
-pi install npm:pi-lingual
-pi install npm:toolflow
-pi install npm:pi-tui-status-beautifier
-pi install npm:pi-anchor
-```
-
----
-
-### 一路顺手做的其他项目
-
-- **[`lingual-desktop`](https://github.com/3ZEROS12/lingual-desktop)** (`TypeScript` · `Electron` · `C# UI Automation` · `MinGW C` · `24/24 测试通过`)
-  把终端里的双语写作体验搬到了日常 Windows 桌面输入框（X、Slack、Discord、Notion、Chrome）。通过原生 C# `UIA ValuePattern`（`<2ms`）直接读取焦点控件文本，配合 `<160ms` 剪贴板事务回滚保护与 `Esc` 三秒撤回；检测到终端模拟器窗口时自动放行回车键，互不干扰。
-
-- **[`bank-asset-table-ocr-extractor`](https://github.com/3ZEROS12/bank-asset-table-ocr-extractor)** (`Python` · `RapidOCR / ONNX` · `OpenCV` · `PyMuPDF` · `openpyxl`)
-  暑假在银行客户部实习时写的离线表格识别工具。当时网点内网完全断网，柜员要对着 60 行歪斜的纸质资产续期回单一行行往 Excel 里手敲。通过仿射纠偏、Telea 表格线抹除、`15` 位客户号行锚定与 `3` 偏移空间投票，把原本 `15` 分钟一张的手工苦差缩短到了 `8-18` 秒（单元格准确率 `96.9%-99.9%`），异常字段自动标黄供人工复核。
-
-- **[`digit-recognition-fastapi`](https://github.com/3ZEROS12/digit-recognition-fastapi)** (`Python` · `PyTorch` · `OpenCV` · `FastAPI`)
-  文档视觉预处理（轮廓提取、倾斜校正、红章通道滤除、字符切分）与 PyTorch 卷积网络异步推理接口。
-
-- **[`Gabriel`](https://github.com/3ZEROS12/Gabriel)** (`Python` · `SQLite FTS5` · `sqlite-vec` · `39/39 pytest 通过` · *早期原型归档*)
-  早期为了盯住 CLI 编程智能体（`Claude Code`、`Cursor`、`Antigravity`）长重构会话而做的 `1/4` 屏桌面伴侣，内置本地混合检索（BM25 + 向量 RRF 融合）与报错快照钉选。后来把最核心的体验浓缩进了终端内部的 `pi-anchor` 和 `toolflow`，这个桌面原型便功成身退了。
-
-- **[`rea`](https://github.com/3ZEROS12/rea)** (`TypeScript` · `Python` · `Agent Tooling`)
-  探索基于智能体的逆向分析工作流，从应用层网络协议一直追踪到底层二进制反汇编与控制流还原。
+**其他旧物件**
+- **[`lingual-desktop`](https://github.com/3ZEROS12/lingual-desktop)**：基于 Windows 原生 `C# UIA` 的桌面端双语输入辅助小工具。
+- **[`bank-asset-table-ocr-extractor`](https://github.com/3ZEROS12/bank-asset-table-ocr-extractor)**：暑假在银行实习时写的内网离线纸质回单表格识别脚本（`RapidOCR` / `OpenCV`）。
+- **[`rea`](https://github.com/3ZEROS12/rea)**：围绕智能体辅助逆向分析与二进制控制流还原的一点尝试。
+- **[`Gabriel`](https://github.com/3ZEROS12/Gabriel)**：早期的 CLI 智能体会话本地混合检索桌面伴侣原型（已归档）。
