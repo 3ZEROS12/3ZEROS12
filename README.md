@@ -14,7 +14,7 @@ I love my life. I love playing badminton. To me it is a remarkable sport because
 
 I enjoy learning. Learning, I think, might be a sport too. I hate separating it from the rest of my life, though space here is short and most people do not seem to see it that way. Either way you put in time and sweat, just balanced with different weights, and what you get back is different too: perspective, character, the art of dealing with people (why haven't I gotten the hang of this yet?...), and understanding (a cliché, I know, but an essential one). All of these things gather into a quiet happiness. As long as there is enough time, there is very little pain in it; when pain does show up, it is usually a chain reaction set off by the brute force of a ticking clock. I do not need to say much about that kind of experience. I have been through brutal exams, yet I refuse to take them as proof against my belief that learning is a joy, and I will not accept that argument from anyone else either. To me, that was not learning at all. If anything, that kind of torment is closer to what most people think of as grueling physical training. A flower that blooms only after tearing apart the spirit and the flesh is what I call suffering, not joy. It is like a photograph of a child holding a doll among shattered walls after a war. Some people praise the beauty of that image, but I cannot feel it. That is a catastrophe. It reflects love, perhaps, by contrast, but it does not carry love.
 
-Thinking about technology and the future, and writing code when an idea takes hold, is really an extension of the same instinct. Good technology, much like real learning, ought to widen human perspective and autonomy rather than wrap people in a faster kind of haste. Watching how quickly tools and models churn today, I sometimes wonder whether we are genuinely reaching further through technology or just being shoved along at a steeper pace. I still do not have a clean answer to that, though whenever I build something myself, I refuse to feed into that restlessness. The repositories sitting below on this page are simply old footprints from problems I ran into and left behind. Once a piece of work is finished, it belongs to the past; what keeps me curious is always the next question still taking shape in my head, and where technology might actually take us next.
+Thinking about technology and the future, and writing a bit of code when an idea takes hold, feels like an extension of the same instinct. Good technology, much like real learning, ought to widen human perspective and autonomy rather than wrap people in a faster kind of haste. Watching how quickly tools and models churn today, I sometimes wonder whether we are genuinely reaching further through technology or just being shoved along at a steeper pace. I still do not have a clean answer to that, yet whenever I bump into a small annoyance in daily work, writing a few lines of code to smooth it out brings its own quiet joy. What sits below on this page are simply footprints left along the way; if one or two of these tools happen to save you a few minutes of frustration at your screen so you can close your laptop a little earlier and step outside to catch some fresh air, that is more than enough for me.
 
 <details>
 <summary><b>中文版随笔：生活、学习与未来 (Chinese Version)</b></summary>
@@ -26,7 +26,7 @@ Thinking about technology and the future, and writing code when an idea takes ho
 
 我享受学习。学习，我认为可能也是一项运动吧，我不愿意把它跟我的生活相分离，但篇幅所限，而且大家似乎不这样认同。同样付出着时间和汗水，只是有着不同权重平衡下的投入，但收获也不一样啊。眼界，素质，待人接物的能力（为什么我还没有学好呢？...），认知（老生常谈，但是绝对的重要）。种种种种，汇聚而来的幸福感，同时如果时间充足还是没有太过的痛苦，只是时间带来的不可抗力导致的连锁反应。至于这种经历，我不必多说，经历过严苛的考试，但这不是我想要反驳我认为学习是一种享受的理由，也不接受别人如此反驳。我不认为那是一种学习，姑且对我而言，那种痛苦还是更像大家认为的运动一点吧。承受过撕裂精神，还有肉体的苦痛，最终绽放的花，我认为是苦难，而非享受。就如战争过后，断壁残垣下的孩童与玩偶，有人推崇，但我感受不到那种美。那是灾难，投射出爱，但不承载爱。
 
-我平时喜欢琢磨技术和未来，动手写一点代码，大概也是这种思考的延伸。我始终觉得，好的技术应该像真正的学习一样，去拓宽人的眼界与自主性，别反过来变成另一种更密集的仓促把人裹挟住。有时候看着现在越来越快的工具迭代，我也会犹豫，人到底是在借着技术走得更远，还是只是在更急的节奏里被动地疲于奔命。这个问题我还没有完全想透，但至少在自己动手造东西的时候，我不想去凑那种热闹。页面下方留着的几个仓库，只是过去遇到问题时顺手踩出的旧脚印。做完的东西就已经留在身后了，真正让我着迷的，永远是脑子里还在成形的下一个问题，以及技术究竟能把人带向怎样的未来。
+我平时喜欢琢磨技术和未来，偶尔顺手写一点代码，大概也是这种思考的延伸。我始终觉得，好的技术应该像真正的学习一样，去拓宽人的眼界与自主性，别反过来变成另一种更密集的仓促把人裹挟住。有时候看着现在越来越快的工具迭代，我也会想，人到底是在借着技术走得更远，还是只是在更急的节奏里被动地疲于奔命？这个问题我还没有完全想透，但遇到日常里具体的磕绊时，能写几行代码把它顺手抚平，那种顺畅感本身就足够让人开心了。页面下方留着的几个小物件，就是过去路上踩出的脚印；如果刚好有一两个能替你省下几分钟对着屏幕的焦躁，让你早点合上电脑出去吹吹风，那就再好不过了。
 
 </details>
 
@@ -34,16 +34,30 @@ Thinking about technology and the future, and writing code when an idea takes ho
 
 ## Things I Build
 
-A few small tools and experiments left along the way:
+### Pi Terminal Suite
 
-**Terminal & Agent Tooling ([Pi Coding Agent](https://github.com/earendil-works/pi-coding-agent) packages on [npm](https://www.npmjs.com/~jason-zeros))**
-- **[`pi-lingual`](https://github.com/3ZEROS12/pi-lingual)** ([npm](https://www.npmjs.com/package/pi-lingual)): Bilingual sidecar (`aboveEditor`) and technical English prompt rewriter.
-- **[`toolflow`](https://github.com/3ZEROS12/toolflow)** ([npm](https://www.npmjs.com/package/toolflow)): Stage-gated MCP tool loading and long-output log spillover.
-- **[`pi-anchor`](https://github.com/3ZEROS12/anchor)** ([npm](https://www.npmjs.com/package/pi-anchor)): Quick `pin:` task strip (`belowEditor`) with session transcript bookmarks.
-- **[`pi-tui-status-beautifier`](https://github.com/3ZEROS12/pi-tui-status-beautifier)** ([npm](https://www.npmjs.com/package/pi-tui-status-beautifier)): Compact footer layout for terminal split panes.
+Four small, composable packages on [npm](https://www.npmjs.com/~jason-zeros) for [Pi Coding Agent](https://github.com/earendil-works/pi-coding-agent), each mounting to its own terminal slot (`aboveEditor`, runtime tool hooks, `belowEditor`, and `status-only` footer) so they work side by side without stepping on each other:
 
-**Other Footprints**
-- **[`lingual-desktop`](https://github.com/3ZEROS12/lingual-desktop)**: Native Windows (`C# UIA` / `Electron`) bilingual input helper for desktop apps.
-- **[`bank-asset-table-ocr-extractor`](https://github.com/3ZEROS12/bank-asset-table-ocr-extractor)**: Air-gapped table OCR pipeline (`RapidOCR` / `OpenCV`) built during a summer bank internship.
-- **[`rea`](https://github.com/3ZEROS12/rea)**: Experiments in agent-assisted reverse engineering and binary analysis.
-- **[`Gabriel`](https://github.com/3ZEROS12/Gabriel)**: Early desktop sidecar prototype for local hybrid search over CLI agent transcripts.
+| Package | Registry & Downloads | What It Solves | Tests |
+| :--- | :--- | :--- | :--- |
+| **[`pi-lingual`](https://github.com/3ZEROS12/pi-lingual)** | [![npm](https://img.shields.io/npm/v/pi-lingual?color=blue&label=npm)](https://www.npmjs.com/package/pi-lingual) [![downloads](https://img.shields.io/npm/dm/pi-lingual?color=22c55e&label=downloads)](https://www.npmjs.com/package/pi-lingual) | **`aboveEditor` Bilingual Sidecar & Prompt Rewriter**: Turns LLM wait time into a compact `<= 9`-line bilingual window (`[Spoken]` + `[Written]`) or rewrites native prompts into technical English while keeping code blocks untouched. | `93/93` pass |
+| **[`toolflow`](https://github.com/3ZEROS12/toolflow)** | [![npm](https://img.shields.io/npm/v/toolflow?color=blue&label=npm)](https://www.npmjs.com/package/toolflow) [![downloads](https://img.shields.io/npm/dm/toolflow?color=22c55e&label=downloads)](https://www.npmjs.com/package/toolflow) | **Stage-Gated Tools & `-95%` Log Dehydration**: Gates heavy MCP schemas by workflow stage and spills command outputs over `40` lines to disk so long test logs never drown the context window. | `26/26` pass |
+| **[`pi-tui-status-beautifier`](https://github.com/3ZEROS12/pi-tui-status-beautifier)** | [![npm](https://img.shields.io/npm/v/pi-tui-status-beautifier?color=blue&label=npm)](https://www.npmjs.com/package/pi-tui-status-beautifier) [![downloads](https://img.shields.io/npm/dm/pi-tui-status-beautifier?color=22c55e&label=downloads)](https://www.npmjs.com/package/pi-tui-status-beautifier) | **`status-only` Footer Engine**: Organizes extension status strings into `6` clean presets and folds idle badges into `(+N idle)` on narrow (`<80`-col) split panes with zero synchronous disk reads. | `18/18` pass |
+| **[`pi-anchor`](https://github.com/3ZEROS12/anchor)** | [![npm](https://img.shields.io/npm/v/pi-anchor?color=blue&label=npm)](https://www.npmjs.com/package/pi-anchor) [![downloads](https://img.shields.io/npm/dm/pi-anchor?color=22c55e&label=downloads)](https://www.npmjs.com/package/pi-anchor) | **`0ms` `belowEditor` Sticky Strip & Session Jump**: Intercepts `pin:` notes in `0ms` without LLM calls, renders `[■■□□]` step bars, and bookmarks `.jsonl` session transcripts (`↪`) for one-key context recovery. | `25/25` pass |
+
+### Other Projects Built Along the Way
+
+- **[`lingual-desktop`](https://github.com/3ZEROS12/lingual-desktop)** (`TypeScript` · `Electron` · `C# UI Automation` · `MinGW C` · `24/24 Tests Pass`)
+  Brings the dual-register writing workflow into everyday Windows text inputs (X, Slack, Discord, Notion, Chrome) via native C# `UIA ValuePattern` (`<2ms`) with atomic clipboard rollback guard and `Esc` three-second undo.
+
+- **[`bank-asset-table-ocr-extractor`](https://github.com/3ZEROS12/bank-asset-table-ocr-extractor)** (`Python` · `RapidOCR / ONNX` · `OpenCV` · `PyMuPDF` · `openpyxl`)
+  Air-gapped table OCR pipeline built during a summer bank internship; combines affine deskewing, grid-line removal, and `15`-digit ID anchoring to turn a `15`-minute manual paper-receipt transcription chore into `8-18` seconds per sheet.
+
+- **[`digit-recognition-fastapi`](https://github.com/3ZEROS12/digit-recognition-fastapi)** (`Python` · `PyTorch` · `OpenCV` · `FastAPI`)
+  Document vision preprocessing pipeline (contour extraction, deskewing, red-channel stamp filtering, character segmentation) paired with a PyTorch CNN over async FastAPI endpoints.
+
+- **[`rea`](https://github.com/3ZEROS12/rea)** (`TypeScript` · `Python` · `Agent Tooling`)
+  Experiments in agent-assisted reverse engineering, from network protocol inspection down to binary disassembly and control-flow reconstruction.
+
+- **[`Gabriel`](https://github.com/3ZEROS12/Gabriel)** (`Python` · `SQLite FTS5` · `sqlite-vec` · `39/39 pytest Pass` · *Archived Prototype*)
+  Early `1/4`-screen desktop sidecar for watching CLI coding agent transcripts with local hybrid search (BM25 + vector Reciprocal Rank Fusion), before its core ideas grew into `pi-anchor` and `toolflow`.
